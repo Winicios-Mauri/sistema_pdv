@@ -1,0 +1,4 @@
+img_menu RCDATA "src\\assets\\menu.png"
+img_iluminacao RCDATA "src\\assets\\iluminacao.png"
+img_loja RCDATA "src\\assets\\loja.png"
+img_papel RCDATA "src\\assets\\papel.png"

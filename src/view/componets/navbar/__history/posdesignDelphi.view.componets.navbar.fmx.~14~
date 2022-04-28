@@ -1,0 +1,53 @@
+object ComponetsNavBar: TComponetsNavBar
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 56
+  ClientWidth = 642
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object LayoutContainer: TLayout
+    Align = Client
+    Size.Width = 642.000000000000000000
+    Size.Height = 56.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object Rectangle1: TRectangle
+      Align = Client
+      Fill.Color = xFF3A7F56
+      Size.Width = 642.000000000000000000
+      Size.Height = 56.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      object Layout1: TLayout
+        Align = Left
+        Size.Width = 50.000000000000000000
+        Size.Height = 56.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object Image1: TImage
+          MultiResBitmap = <
+            item
+            end>
+          Align = Client
+          Margins.Left = 10.000000000000000000
+          Margins.Top = 10.000000000000000000
+          Margins.Right = 10.000000000000000000
+          Margins.Bottom = 10.000000000000000000
+          Size.Width = 30.000000000000000000
+          Size.Height = 36.000000000000000000
+          Size.PlatformDefault = False
+        end
+        object SpeedButton1: TSpeedButton
+          Align = Client
+          Size.Width = 50.000000000000000000
+          Size.Height = 56.000000000000000000
+          Size.PlatformDefault = False
+        end
+      end
+    end
+  end
+end

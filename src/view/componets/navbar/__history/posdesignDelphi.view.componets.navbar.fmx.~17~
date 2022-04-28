@@ -1,0 +1,50 @@
+object ComponetsNavBar: TComponetsNavBar
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 56
+  ClientWidth = 642
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object LayoutContainer: TLayout
+    Align = Client
+    Size.Width = 642.000000000000000000
+    Size.Height = 56.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object Rectangle1: TRectangle
+      Align = Client
+      Fill.Color = xFF3A7F56
+      Size.Width = 642.000000000000000000
+      Size.Height = 56.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      object Layout2: TLayout
+        Align = Right
+        Position.X = 456.000000000000000000
+        Size.Width = 96.000000000000000000
+        Size.Height = 56.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+      end
+      object Layout3: TLayout
+        Align = Right
+        Position.X = 552.000000000000000000
+        Size.Width = 90.000000000000000000
+        Size.Height = 56.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+      end
+    end
+    object ShadowEffect1: TShadowEffect
+      Distance = 3.000000000000000000
+      Direction = 45.000000000000000000
+      Softness = 0.300000011920929000
+      Opacity = 0.400000005960464500
+      ShadowColor = claBlack
+    end
+  end
+end

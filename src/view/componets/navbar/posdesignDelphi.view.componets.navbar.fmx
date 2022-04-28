@@ -1,4 +1,4 @@
-object Form2: TForm2
+object ComponetsNavBar: TComponetsNavBar
   Left = 0
   Top = 0
   Caption = 'Form2'
@@ -7,6 +7,7 @@ object Form2: TForm2
   FormFactor.Width = 320
   FormFactor.Height = 480
   FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
   DesignerMasterStyle = 0
   object LayoutContainer: TLayout
     Align = Client
@@ -21,6 +22,36 @@ object Form2: TForm2
       Size.Height = 56.000000000000000000
       Size.PlatformDefault = False
       Stroke.Kind = None
+      object Layout2: TLayout
+        Align = Right
+        Position.X = 472.000000000000000000
+        Size.Width = 80.000000000000000000
+        Size.Height = 56.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+      end
+      object Layout3: TLayout
+        Align = Right
+        Position.X = 552.000000000000000000
+        Size.Width = 90.000000000000000000
+        Size.Height = 56.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+      end
+      object Layout1: TLayout
+        Align = Left
+        Size.Width = 50.000000000000000000
+        Size.Height = 56.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+      end
+    end
+    object ShadowEffect1: TShadowEffect
+      Distance = 3.000000000000000000
+      Direction = 45.000000000000000000
+      Softness = 0.300000011920929000
+      Opacity = 0.400000005960464500
+      ShadowColor = claBlack
     end
   end
 end
