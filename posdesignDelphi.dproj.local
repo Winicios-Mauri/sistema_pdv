@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2022/04/27 20:22:45.292,=C:\Users\Winicios\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/04/27 20:23:51.772,C:\Users\Winicios\Documents\Embarcadero\Studio\Projects\posdesignDelphi.dproj=C:\Users\Winicios\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2022/04/27 20:26:12.512,E:\Git Hub\sistema_pdv_layout\src\view\posdesignDelphi.view.index.fmx=C:\Users\Winicios\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2022/04/27 20:26:12.512,E:\Git Hub\sistema_pdv_layout\src\view\posdesignDelphi.view.index.pas=C:\Users\Winicios\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/04/27 20:26:22.642,E:\Git Hub\sistema_pdv_layout\posdesignDelphi.dproj=C:\Users\Winicios\Documents\Embarcadero\Studio\Projects\posdesignDelphi.dproj</Transaction>
+  </Transactions>
+  <ActiveMobileDevice>   <NoProfile iOSSimulator="iPhone5"/>
+  </ActiveMobileDevice>
+</BorlandProject>

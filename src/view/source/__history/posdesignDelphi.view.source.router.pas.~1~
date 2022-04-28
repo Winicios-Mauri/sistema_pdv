@@ -1,0 +1,34 @@
+unit posdesignDelphi.view.source.router;
+
+interface
+
+uses
+  Router4D;
+
+type
+  TRouter = class
+  private
+  public
+    constructor Create;
+    destructor Destroy; override;
+  end;
+
+var
+  Routers: TRouter;
+
+implementation
+
+{ TRouter }
+
+constructor TRouter.Create;
+begin
+  TRouter4D.Switch.Router('App', TPageApp);
+end;
+
+destructor TRouter.Destroy;
+begin
+
+  inherited;
+end;
+
+end.
