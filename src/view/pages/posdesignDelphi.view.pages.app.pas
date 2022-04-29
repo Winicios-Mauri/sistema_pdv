@@ -6,7 +6,8 @@ uses
   System.SysUtils, System.Types, System.UITypes, System.Classes,
   System.Variants,
   FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.Layouts,
-  posdesignDelphi.view.componets.navbar, Router4D.Interfaces, FMX.Objects;
+  posdesignDelphi.view.componets.navbar,Router4D, Router4D.Interfaces, FMX.Objects,
+  posdesignDelphi.view.pages.main;
 
 type
   TPageApp = class(TForm, iRouter4DComponent)
@@ -34,6 +35,8 @@ begin
   Result := LayoutContainer;
 
   LayoutNavBar.AddObject(TComponetsNavBar.Create(Self).build);
+
+  TRouter4D.Render<TPageMain>.SetElement(LayoutBody, LayoutBody);
 end;
 
 procedure TPageApp.UnRender;

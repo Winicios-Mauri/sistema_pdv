@@ -1,12 +1,35 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
-  <Transactions>
-    <Transaction>2022/04/27 20:22:45.292,=C:\Users\Winicios\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2022/04/27 20:23:51.772,C:\Users\Winicios\Documents\Embarcadero\Studio\Projects\posdesignDelphi.dproj=C:\Users\Winicios\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
-    <Transaction>2022/04/27 20:26:12.512,E:\Git Hub\sistema_pdv_layout\src\view\posdesignDelphi.view.index.fmx=C:\Users\Winicios\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
-    <Transaction>2022/04/27 20:26:12.512,E:\Git Hub\sistema_pdv_layout\src\view\posdesignDelphi.view.index.pas=C:\Users\Winicios\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2022/04/27 20:26:22.642,E:\Git Hub\sistema_pdv_layout\posdesignDelphi.dproj=C:\Users\Winicios\Documents\Embarcadero\Studio\Projects\posdesignDelphi.dproj</Transaction>
+	<Transactions>
+    <Transaction>2022/04/27 20:22:45.000.292,=C:\Users\Winicios\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/04/27 20:23:51.000.772,C:\Users\Winicios\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Winicios\Documents\Embarcadero\Studio\Projects\posdesignDelphi.dproj</Transaction>
+    <Transaction>2022/04/27 20:26:12.000.512,C:\Users\Winicios\Documents\Embarcadero\Studio\Projects\Unit1.pas=E:\Git Hub\sistema_pdv_layout\src\view\posdesignDelphi.view.index.pas</Transaction>
+    <Transaction>2022/04/27 20:26:12.000.512,C:\Users\Winicios\Documents\Embarcadero\Studio\Projects\Unit1.fmx=E:\Git Hub\sistema_pdv_layout\src\view\posdesignDelphi.view.index.fmx</Transaction>
+    <Transaction>2022/04/27 20:26:22.000.642,C:\Users\Winicios\Documents\Embarcadero\Studio\Projects\posdesignDelphi.dproj=E:\Git Hub\sistema_pdv_layout\posdesignDelphi.dproj</Transaction>
+    <Transaction>2022/04/27 20:31:38.000.628,=E:\Git Hub\sistema_pdv_layout\Unit1.pas</Transaction>
+    <Transaction>2022/04/27 20:34:00.000.078,E:\Git Hub\sistema_pdv_layout\Unit1.pas=E:\Git Hub\sistema_pdv_layout\src\view\source\posdesignDelphi.view.source.routers.pas</Transaction>
+    <Transaction>2022/04/27 20:35:50.000.843,=E:\Git Hub\sistema_pdv_layout\Unit2.pas</Transaction>
+    <Transaction>2022/04/27 20:37:05.000.742,E:\Git Hub\sistema_pdv_layout\Unit2.pas=E:\Git Hub\sistema_pdv_layout\src\view\pages\posdesignDelphi.view.pages.app.pas</Transaction>
+    <Transaction>2022/04/27 20:37:05.000.742,E:\Git Hub\sistema_pdv_layout\Unit2.fmx=E:\Git Hub\sistema_pdv_layout\src\view\pages\posdesignDelphi.view.pages.app.fmx</Transaction>
+    <Transaction>2022/04/27 20:41:35.000.583,=E:\Git Hub\sistema_pdv_layout\Unit2.pas</Transaction>
+    <Transaction>2022/04/27 21:01:28.000.893,E:\Git Hub\sistema_pdv_layout\Unit2.pas=E:\Git Hub\sistema_pdv_layout\src\view\componets\navbar\posdesignDelphi.view.componets.navbar.pas</Transaction>
+    <Transaction>2022/04/27 21:01:28.000.893,E:\Git Hub\sistema_pdv_layout\Unit2.fmx=E:\Git Hub\sistema_pdv_layout\src\view\componets\navbar\posdesignDelphi.view.componets.navbar.fmx</Transaction>
+    <Transaction>2022/04/27 21:25:49.000.999,=E:\Git Hub\sistema_pdv_layout\src\assets\menu.png</Transaction>
+    <Transaction>2022/04/27 21:26:17.000.348,=E:\Git Hub\sistema_pdv_layout\Unit1.pas</Transaction>
+    <Transaction>2022/04/27 21:32:26.000.708,E:\Git Hub\sistema_pdv_layout\Unit1.pas=E:\Git Hub\sistema_pdv_layout\src\view\source\posdesignDelphi.view.source.utils.pas</Transaction>
+    <Transaction>2022/04/27 21:41:32.000.770,=E:\Git Hub\sistema_pdv_layout\Unit1.pas</Transaction>
+    <Transaction>2022/04/27 21:44:14.000.787,E:\Git Hub\sistema_pdv_layout\Unit1.fmx=E:\Git Hub\sistema_pdv_layout\src\view\componets\button\posdesignDelphi.view.componets.button.fmx</Transaction>
+    <Transaction>2022/04/27 21:44:14.000.787,E:\Git Hub\sistema_pdv_layout\Unit1.pas=E:\Git Hub\sistema_pdv_layout\src\view\componets\button\posdesignDelphi.view.componets.button.pas</Transaction>
+    <Transaction>2022/04/27 22:03:42.000.153,=E:\Git Hub\sistema_pdv_layout\src\assets\loja.png</Transaction>
+    <Transaction>2022/04/27 22:03:42.000.164,=E:\Git Hub\sistema_pdv_layout\src\assets\papel.png</Transaction>
+    <Transaction>2022/04/27 22:03:42.000.139,=E:\Git Hub\sistema_pdv_layout\src\assets\iluminacao.png</Transaction>
+    <Transaction>2022/04/28 20:02:08.906,=E:\Git Hub\sistema_pdv_layout\Unit1.pas</Transaction>
+    <Transaction>2022/04/28 20:04:58.740,E:\Git Hub\sistema_pdv_layout\src\view\pages\posdesignDelphi.view.pages.main.fmx=E:\Git Hub\sistema_pdv_layout\Unit1.fmx</Transaction>
+    <Transaction>2022/04/28 20:04:58.740,E:\Git Hub\sistema_pdv_layout\src\view\pages\posdesignDelphi.view.pages.main.pas=E:\Git Hub\sistema_pdv_layout\Unit1.pas</Transaction>
+    <Transaction>2022/04/28 21:59:36.439,=E:\Git Hub\sistema_pdv_layout\src\assets\pesquisa.png</Transaction>
+    <Transaction>2022/04/28 22:02:46.951,=E:\Git Hub\sistema_pdv_layout\src\assets\lupa.png</Transaction>
   </Transactions>
-  <ActiveMobileDevice>   <NoProfile iOSSimulator="iPhone5"/>
-  </ActiveMobileDevice>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
 </BorlandProject>

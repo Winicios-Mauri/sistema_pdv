@@ -67,16 +67,16 @@ end;
 
 procedure TComponetsNavBar.FormCreate(Sender: TObject);
 begin
-  Layout1.AddObject(TComponetButton.Create(Self).Image('img_menu')
+  Layout2.AddObject(TComponetButton.Create(Self).Image('img_menu')
     .Click(ClicarMenu).build);
 
-  Layout3.AddObject(TComponetButton.Create(Self).Image('img_papel')
+  Layout2.AddObject(TComponetButton.Create(Self).Image('img_papel')
     .Align(TAlignLayout.Right).Click(ClicarPapel).build);
 
-  Layout3.AddObject(TComponetButton.Create(Self).Image('img_loja')
+  Layout2.AddObject(TComponetButton.Create(Self).Image('img_loja')
     .Align(TAlignLayout.Right).Click(ClicarLoja).build);
 
-  Layout3.AddObject(TComponetButton.Create(Self).Image('img_iluminacao')
+  Layout2.AddObject(TComponetButton.Create(Self).Image('img_iluminacao')
     .Align(TAlignLayout.Right).Click(ClicarIluminacao).build);
 end;
 

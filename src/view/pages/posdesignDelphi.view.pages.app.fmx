@@ -31,6 +31,10 @@ object PageApp: TPageApp
     end
     object LayoutBody: TLayout
       Align = Client
+      Padding.Left = 10.000000000000000000
+      Padding.Top = 20.000000000000000000
+      Padding.Right = 10.000000000000000000
+      Padding.Bottom = 20.000000000000000000
       Size.Width = 640.000000000000000000
       Size.Height = 430.000000000000000000
       Size.PlatformDefault = False

@@ -2,9 +2,10 @@ object PageIndex: TPageIndex
   Left = 0
   Top = 0
   Caption = 'Pagina Index'
-  ClientHeight = 480
-  ClientWidth = 640
+  ClientHeight = 600
+  ClientWidth = 900
   Position = ScreenCenter
+  WindowState = wsMaximized
   FormFactor.Width = 320
   FormFactor.Height = 480
   FormFactor.Devices = [Desktop]
@@ -12,8 +13,8 @@ object PageIndex: TPageIndex
   DesignerMasterStyle = 0
   object LayoutContainer: TLayout
     Align = Client
-    Size.Width = 640.000000000000000000
-    Size.Height = 480.000000000000000000
+    Size.Width = 900.000000000000000000
+    Size.Height = 600.000000000000000000
     Size.PlatformDefault = False
     TabOrder = 0
   end

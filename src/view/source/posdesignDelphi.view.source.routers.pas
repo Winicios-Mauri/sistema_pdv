@@ -3,7 +3,7 @@ unit posdesignDelphi.view.source.routers;
 interface
 
 uses
-  Router4D, posdesignDelphi.view.pages.app;
+  Router4D, posdesignDelphi.view.pages.app, posdesignDelphi.view.pages.main;
 
 type
   TRouter = class
@@ -22,7 +22,7 @@ implementation
 
 constructor TRouter.Create;
 begin
-  TRouter4D.Switch.router('App', TPageApp);
+  TRouter4D.Switch.router('App', TPageApp).router('Main', TPageMain);
 end;
 
 destructor TRouter.Destroy;
