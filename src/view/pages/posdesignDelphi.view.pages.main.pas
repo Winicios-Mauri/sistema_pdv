@@ -7,7 +7,9 @@ uses
   System.Variants,
   FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.Layouts,
   FMX.Objects, Router4D.Interfaces, FMX.Controls.Presentation, FMX.StdCtrls,
-  FMX.Effects, posdesignDelphi.view.source.utils, FMX.Edit;
+  FMX.Effects, posdesignDelphi.view.source.utils, FMX.Edit,
+  posdesignDelphi.view.componets.itembutton,
+  posdesignDelphi.view.componets.categorybutton;
 
 type
   TPageMain = class(TForm, iRouter4DComponent)
@@ -54,10 +56,25 @@ type
     RoundRect1: TRoundRect;
     Edit1: TEdit;
     SpeedButton4: TSpeedButton;
+    Layout16: TLayout;
+    Label9: TLabel;
+    Label10: TLabel;
+    Label11: TLabel;
+    Layout17: TLayout;
+    Label12: TLabel;
+    Label13: TLabel;
+    Layout18: TLayout;
+    Label14: TLabel;
+    Label15: TLabel;
+    VertScrollBox1: TVertScrollBox;
+    FlowLayout1: TFlowLayout;
+    FlowLayout2: TFlowLayout;
     procedure SpeedButton1Click(Sender: TObject);
     procedure Edit1Click(Sender: TObject);
   private
     { Private declarations }
+    procedure CarregaItens;
+    procedure CarregaCategory;
   public
     { Public declarations }
     function Render: TFMXObject;
@@ -72,6 +89,34 @@ implementation
 {$R *.fmx}
 { TPageMain }
 
+procedure TPageMain.CarregaCategory;
+begin
+  FlowLayout2.AddObject(TComponetCategoryButton.Create(Self).Recursos('icon1',
+    'Balança').Layout1);
+  FlowLayout2.AddObject(TComponetCategoryButton.Create(Self).Recursos('icon2',
+    'Drinks').Layout1);
+  FlowLayout2.AddObject(TComponetCategoryButton.Create(Self).Recursos('icon3',
+    'Café').Layout1);
+  FlowLayout2.AddObject(TComponetCategoryButton.Create(Self).Recursos('icon4',
+    'Churrasco').Layout1);
+  FlowLayout2.AddObject(TComponetCategoryButton.Create(Self).Recursos('icon5',
+    'Dinheiro').Layout1);
+  FlowLayout2.AddObject(TComponetCategoryButton.Create(Self).Recursos('icon6',
+    'Comida').Layout1);
+end;
+
+procedure TPageMain.CarregaItens;
+var
+  I: Integer;
+begin
+  for I := 1 to 8 do
+  begin
+    FlowLayout1.AddObject(TComponetItemButton.Create(Self)
+      .Recursos('bebida' + I.ToString, 'Bebida', 'R$ 3,35').Layout1);
+  end;
+
+end;
+
 procedure TPageMain.Edit1Click(Sender: TObject);
 begin
   Edit1.Text := '';
@@ -83,6 +128,9 @@ begin
   Result := LayoutContainer;
 
   TUtils.ResourceImage('img_source', Image1);
+
+  CarregaItens;
+  CarregaCategory;
 end;
 
 procedure TPageMain.SpeedButton1Click(Sender: TObject);

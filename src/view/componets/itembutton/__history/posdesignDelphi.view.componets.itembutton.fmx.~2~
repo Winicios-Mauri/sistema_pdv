@@ -1,0 +1,97 @@
+object ComponetButton1: TComponetButton1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 148
+  ClientWidth = 131
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Layout1: TLayout
+    Align = Client
+    Margins.Left = 10.000000000000000000
+    Size.Width = 121.000000000000000000
+    Size.Height = 148.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Layout2: TLayout
+      Align = Client
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 10.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Margins.Bottom = 10.000000000000000000
+      Size.Width = 101.000000000000000000
+      Size.Height = 128.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object Layout3: TLayout
+        Align = Bottom
+        Position.Y = 78.000000000000000000
+        Size.Width = 101.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object lblpreco: TLabel
+          Align = Bottom
+          StyledSettings = [Family, Size, Style]
+          Position.Y = 25.000000000000000000
+          Size.Width = 101.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.FontColor = xFF3A7F56
+          TextSettings.HorzAlign = Center
+          Text = 'lblpreco'
+          TabOrder = 0
+        end
+        object lbldescricao: TLabel
+          Align = Client
+          Size.Width = 101.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.HorzAlign = Center
+          Text = 'lbldescricao'
+          TabOrder = 1
+        end
+      end
+      object Layout4: TLayout
+        Align = Client
+        Size.Width = 101.000000000000000000
+        Size.Height = 78.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        object Image1: TImage
+          MultiResBitmap = <
+            item
+            end>
+          Align = Client
+          Margins.Left = 20.000000000000000000
+          Margins.Top = 5.000000000000000000
+          Margins.Right = 20.000000000000000000
+          Margins.Bottom = 10.000000000000000000
+          Size.Width = 61.000000000000000000
+          Size.Height = 63.000000000000000000
+          Size.PlatformDefault = False
+        end
+        object Rectangle1: TRectangle
+          Align = Contents
+          Fill.Color = x000000FF
+          Margins.Left = 2.000000000000000000
+          Margins.Top = 2.000000000000000000
+          Margins.Right = 2.000000000000000000
+          Margins.Bottom = 2.000000000000000000
+          Size.Width = 97.000000000000000000
+          Size.Height = 74.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Color = xFFF8F8F8
+        end
+      end
+      object SpeedButton1: TSpeedButton
+        Align = Contents
+        Size.Width = 101.000000000000000000
+        Size.Height = 128.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+  end
+end

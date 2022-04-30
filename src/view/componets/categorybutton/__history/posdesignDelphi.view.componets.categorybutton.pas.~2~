@@ -1,0 +1,43 @@
+unit posdesignDelphi.view.componets.categorybutton;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.Objects,
+  FMX.Controls.Presentation, FMX.StdCtrls, FMX.Layouts,
+  posdesignDelphi.view.source.utils;
+
+type
+  TComponetCategoryButton = class(TForm)
+    Layout1: TLayout;
+    Rectangle1: TRectangle;
+    Layout2: TLayout;
+    Layout3: TLayout;
+    lbldescricao: TLabel;
+    Image1: TImage;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+    function Recursos(Imagem, Descricao : string): TComponetCategoryButton;
+  end;
+
+var
+  ComponetCategoryButton: TComponetCategoryButton;
+
+implementation
+
+{$R *.fmx}
+
+{ TComponetCategoryButton }
+
+function TComponetCategoryButton.Recursos(Imagem,
+  Descricao: string): TComponetCategoryButton;
+begin
+  Result := Self;
+  lbldescricao.Text := Descricao;
+  TUtils.ResourceImage(Imagem, Image1);
+end;
+
+end.

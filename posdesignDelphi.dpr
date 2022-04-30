@@ -11,7 +11,9 @@ uses
   posdesignDelphi.view.componets.navbar in 'src\view\componets\navbar\posdesignDelphi.view.componets.navbar.pas' {ComponetsNavBar},
   posdesignDelphi.view.source.utils in 'src\view\source\posdesignDelphi.view.source.utils.pas',
   posdesignDelphi.view.componets.button in 'src\view\componets\button\posdesignDelphi.view.componets.button.pas' {ComponetButton},
-  posdesignDelphi.view.pages.main in 'src\view\pages\posdesignDelphi.view.pages.main.pas' {PageMain};
+  posdesignDelphi.view.pages.main in 'src\view\pages\posdesignDelphi.view.pages.main.pas' {PageMain},
+  posdesignDelphi.view.componets.itembutton in 'src\view\componets\itembutton\posdesignDelphi.view.componets.itembutton.pas' {ComponetItemButton},
+  posdesignDelphi.view.componets.categorybutton in 'src\view\componets\categorybutton\posdesignDelphi.view.componets.categorybutton.pas' {ComponetCategoryButton};
 
 {$R *.res}
 
@@ -22,5 +24,7 @@ begin
   Application.CreateForm(TComponetsNavBar, ComponetsNavBar);
   Application.CreateForm(TComponetButton, ComponetButton);
   Application.CreateForm(TPageMain, PageMain);
+  Application.CreateForm(TComponetItemButton, ComponetItemButton);
+  Application.CreateForm(TComponetCategoryButton, ComponetCategoryButton);
   Application.Run;
 end.
