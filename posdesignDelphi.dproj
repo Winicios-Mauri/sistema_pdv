@@ -309,6 +309,11 @@
             <Form>ComponetCategoryButton</Form>
             <FormType>fmx</FormType>
         </DCCReference>
+        <DCCReference Include="src\view\componets\itemlista\posdesignDelphi.view.componets.itemlista.pas">
+            <Form>ComponentItemLista</Form>
+            <FormType>fmx</FormType>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
         <RcItem Include="src\assets\menu.png">
             <ResourceType>RCDATA</ResourceType>
             <ResourceId>img_menu</ResourceId>
@@ -361,29 +366,29 @@
             <ResourceType>RCDATA</ResourceType>
             <ResourceId>bebida8</ResourceId>
         </RcItem>
-        <RcItem Include="src\assets\balanca-de-cozinha.png">
-            <ResourceType>RCDATA</ResourceType>
-            <ResourceId>icon1</ResourceId>
-        </RcItem>
-        <RcItem Include="src\assets\bebida-alcoolica.png">
-            <ResourceType>RCDATA</ResourceType>
-            <ResourceId>icon2</ResourceId>
-        </RcItem>
-        <RcItem Include="src\assets\copo-redondo-de-cafe-quente-em-um-prato-de-vista-lateral.png">
-            <ResourceType>RCDATA</ResourceType>
-            <ResourceId>icon3</ResourceId>
-        </RcItem>
-        <RcItem Include="src\assets\cozinhando-na-churrasqueira.png">
-            <ResourceType>RCDATA</ResourceType>
-            <ResourceId>icon4</ResourceId>
-        </RcItem>
-        <RcItem Include="src\assets\dinheiro.png">
-            <ResourceType>RCDATA</ResourceType>
-            <ResourceId>icon5</ResourceId>
-        </RcItem>
         <RcItem Include="src\assets\fast-food (1).png">
             <ResourceType>RCDATA</ResourceType>
             <ResourceId>icon6</ResourceId>
+        </RcItem>
+        <RcItem Include="src\assets\balanca-de-cozinha (1).png">
+            <ResourceType>RCDATA</ResourceType>
+            <ResourceId>icon1</ResourceId>
+        </RcItem>
+        <RcItem Include="src\assets\churrasco.png">
+            <ResourceType>RCDATA</ResourceType>
+            <ResourceId>icon4</ResourceId>
+        </RcItem>
+        <RcItem Include="src\assets\cocktail.png">
+            <ResourceType>RCDATA</ResourceType>
+            <ResourceId>icon2</ResourceId>
+        </RcItem>
+        <RcItem Include="src\assets\coffee.png">
+            <ResourceType>RCDATA</ResourceType>
+            <ResourceId>icon3</ResourceId>
+        </RcItem>
+        <RcItem Include="src\assets\dinheiro (1).png">
+            <ResourceType>RCDATA</ResourceType>
+            <ResourceId>icon5</ResourceId>
         </RcItem>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>
@@ -419,6 +424,18 @@
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
+                <DeployFile LocalName="src\assets\balanca-de-cozinha (1).png" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="src\assets\coffee.png" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="src\assets\papel.png" Configuration="Debug" Class="ProjectFile">
                     <Platform Name="Win32">
                         <RemoteDir>.\</RemoteDir>
@@ -443,6 +460,12 @@
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
+                <DeployFile LocalName="src\assets\cocktail.png" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="$(BDS)\Redist\iossimulator\libcgunwind.1.0.dylib" Class="DependencyModule">
                     <Platform Name="iOSSimulator">
                         <Overwrite>true</Overwrite>
@@ -459,7 +482,7 @@
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
-                <DeployFile LocalName="src\assets\bebida-alcoolica.png" Configuration="Debug" Class="ProjectFile">
+                <DeployFile LocalName="src\assets\churrasco.png" Configuration="Debug" Class="ProjectFile">
                     <Platform Name="Win32">
                         <RemoteDir>.\</RemoteDir>
                         <Overwrite>true</Overwrite>
@@ -471,7 +494,7 @@
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
-                <DeployFile LocalName="src\assets\dinheiro.png" Configuration="Debug" Class="ProjectFile">
+                <DeployFile LocalName="src\assets\dinheiro (1).png" Configuration="Debug" Class="ProjectFile">
                     <Platform Name="Win32">
                         <RemoteDir>.\</RemoteDir>
                         <Overwrite>true</Overwrite>
@@ -489,18 +512,6 @@
                     </Platform>
                 </DeployFile>
                 <DeployFile LocalName="src\assets\lupa.png" Configuration="Debug" Class="ProjectFile">
-                    <Platform Name="Win32">
-                        <RemoteDir>.\</RemoteDir>
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
-                <DeployFile LocalName="src\assets\copo-redondo-de-cafe-quente-em-um-prato-de-vista-lateral.png" Configuration="Debug" Class="ProjectFile">
-                    <Platform Name="Win32">
-                        <RemoteDir>.\</RemoteDir>
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
-                <DeployFile LocalName="src\assets\balanca-de-cozinha.png" Configuration="Debug" Class="ProjectFile">
                     <Platform Name="Win32">
                         <RemoteDir>.\</RemoteDir>
                         <Overwrite>true</Overwrite>
@@ -525,12 +536,6 @@
                     </Platform>
                 </DeployFile>
                 <DeployFile LocalName="src\img\bebida2.jpg" Configuration="Debug" Class="ProjectFile">
-                    <Platform Name="Win32">
-                        <RemoteDir>.\</RemoteDir>
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
-                <DeployFile LocalName="src\assets\cozinhando-na-churrasqueira.png" Configuration="Debug" Class="ProjectFile">
                     <Platform Name="Win32">
                         <RemoteDir>.\</RemoteDir>
                         <Overwrite>true</Overwrite>

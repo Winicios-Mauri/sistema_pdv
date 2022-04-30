@@ -1,0 +1,222 @@
+object ComponentItemLista: TComponentItemLista
+  Size.Width = 280.000000000000000000
+  Size.Height = 33.000000000000000000
+  Size.PlatformDefault = False
+  object Layout1: TLayout
+    Align = Client
+    Size.Width = 280.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Layout2: TLayout
+      Align = Left
+      Padding.Left = 5.000000000000000000
+      Padding.Top = 5.000000000000000000
+      Padding.Right = 5.000000000000000000
+      Padding.Bottom = 5.000000000000000000
+      Size.Width = 49.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object Image3: TImage
+        MultiResBitmap.Height = 16
+        MultiResBitmap.Width = 16
+        MultiResBitmap = <
+          item
+            Width = 16
+            Height = 16
+            PNG = {
+              89504E470D0A1A0A0000000D49484452000000100000001008060000001FF3FF
+              61000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              012949444154384FED93414AC3401486DF9B2852C9195C88A56E2BA276A32DC1
+              8D8BE2157A008F20ED1D3C8905573A693736B6F4025244108F608B209DF1FDD3
+              31A8492CBAF68321FFFFBFC9CB649261CA41EBE4462E9B4A91853786641E3F44
+              D1C131FC8FB4DB56697DF7E86D0A32D4BC4D712BE8F793F27CCE974AD9357863
+              7843F413F407DFB257663AADD76B9315386B5585D9E846A376E6CA4B88E3E482
+              4855444EDC0A7ABDDB6D09AE6484F2AC1764C52CE618139C44D1DEBD0FD164B0
+              25EF79ED6D219883B9DE526653ACB52C5FE11C3A8E07475A0F0FA191A106FD99
+              4C834EC76D6C0BDA1855959B76A08596AF7D21D3E0B7FC37C869203B2D078847
+              D04140CF18AE20D9A256C05F7FA4F4BB76BBE3F5307C1BC92129F9281739DAB3
+              E97475BFD9DC9D1111BD033E0477D7F6EC52E40000000049454E44AE426082}
+            FileName = 'E:\Git Hub\sistema_pdv_layout\src\assets\lixeira.png'
+          end>
+        Align = Client
+        Size.Width = 39.000000000000000000
+        Size.Height = 23.000000000000000000
+        Size.PlatformDefault = False
+      end
+      object SpeedButton3: TSpeedButton
+        Align = Contents
+        Size.Width = 49.000000000000000000
+        Size.Height = 33.000000000000000000
+        Size.PlatformDefault = False
+        OnClick = SpeedButton3Click
+      end
+    end
+    object Layout3: TLayout
+      Align = Client
+      Size.Width = 231.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      object lbldescricao: TLabel
+        Align = Left
+        Size.Width = 57.000000000000000000
+        Size.Height = 33.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'lbldescricao'
+        TabOrder = 0
+      end
+      object lblvalor: TLabel
+        Align = Right
+        Position.X = 160.000000000000000000
+        Size.Width = 71.000000000000000000
+        Size.Height = 33.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.HorzAlign = Center
+        Text = 'lblvalor'
+        TabOrder = 1
+      end
+      object Layout4: TLayout
+        Align = Client
+        Size.Width = 103.000000000000000000
+        Size.Height = 33.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        object Layout5: TLayout
+          Align = Left
+          Padding.Left = 2.000000000000000000
+          Padding.Top = 5.000000000000000000
+          Padding.Right = 2.000000000000000000
+          Padding.Bottom = 5.000000000000000000
+          Size.Width = 33.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          object Image1: TImage
+            MultiResBitmap.Height = 16
+            MultiResBitmap.Width = 16
+            MultiResBitmap = <
+              item
+                Width = 16
+                Height = 16
+                PNG = {
+                  89504E470D0A1A0A0000000D49484452000000100000001008060000001FF3FF
+                  61000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                  027449444154384F85535F485361143FE7DBDDE63648CDC2FEC06AA4959B2154
+                  12994FB149445811F359A8879082408A7C8A3D3542098A08C41E4611D5ED3112
+                  4CA33D4850CE29C4A274B20CF2C10C217092BBDFE99C9B5B345AFDE0BBF772CE
+                  EF7CE7FCCE3917A10C077BBB9AC901E788288C083BC5460439441C450B862606
+                  9EBCB389EB285D10BC167579F2701308CE03A2E2F7A246FA283E26ED41C04D1A
+                  C04282BBAB5EEACDC4CC1FE253F2B083577098A93DCC9E440D9194B7694BFA86
+                  D92E67D213AC07D01D0834CD555DE044CF2546621DF2F01F0ADDE2AC5D5CEAC3
+                  552F744E5F3767209924F1D9E0EF85F1CC9C6FBF3FE1365C0D2CA7D328400DDB
+                  8651345B0E98E29AD3790F1C2996560992B92A0FAF09B0C500AB4549C3588703
+                  35F6FD2F586073B4EA93180B1C670DB645A46113BEA6974268BD7AAA8E4055CB
+                  77397CEEA5F9642C59D8F5498F6503F09535461468F0DBDD8EC5B8C90005ED7C
+                  45DAC8FEED7C5FA9EF168E699A164F65869BBE436916CFA3298D53018FB022E8
+                  B78F886388145B3E73F8EE68346A4F44293C2D632C3F9A308CDEFC03E1085703
+                  36F2E7BCC1978CF0582ECD05F45136BC781B7F2CCB632F5025640318E6C4755C
+                  448213EA21D93056112F2EC7BFD070F1989B5F7189D15ADF737C197FBFB8AD2D
+                  B499AB3869AC41A3EF80FFD9B737B3D62FFA9F90E06ACF86048B0FF3B99DEE37
+                  EFDBBA6B23C1316701DA64C3DC4ED7F1AD87F7E5DAB70773994CC6DE46D15C75
+                  A2B9C3ED743F9260021AC5E5DAEE85544A97BABFBE61FD2CA5479644132CF1EE
+                  7F101F21EE65DB46B61514C21D58AEB99C1A1C5C135FE982225AAF9C09C98671
+                  9688D268FFCE5A510E094744F3D4C0D38C4DB401F013A6120C63004A52790000
+                  000049454E44AE426082}
+                FileName = 
+                  'E:\Git Hub\sistema_pdv_layout\src\assets\remover-botao-redondo.p' +
+                  'ng'
+              end
+              item
+                Scale = 2.000000000000000000
+              end>
+            Align = Client
+            Size.Width = 29.000000000000000000
+            Size.Height = 23.000000000000000000
+            Size.PlatformDefault = False
+          end
+          object SpeedButton1: TSpeedButton
+            Align = Contents
+            Size.Width = 33.000000000000000000
+            Size.Height = 33.000000000000000000
+            Size.PlatformDefault = False
+            OnClick = SpeedButton1Click
+          end
+        end
+        object Layout6: TLayout
+          Align = Right
+          Margins.Left = 2.000000000000000000
+          Margins.Top = 5.000000000000000000
+          Margins.Right = 2.000000000000000000
+          Margins.Bottom = 5.000000000000000000
+          Position.X = 70.000000000000000000
+          Position.Y = 5.000000000000000000
+          Size.Width = 31.000000000000000000
+          Size.Height = 23.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          object Image2: TImage
+            MultiResBitmap.Height = 8
+            MultiResBitmap.Width = 8
+            MultiResBitmap = <
+              item
+              end
+              item
+                Scale = 2.000000000000000000
+                Width = 16
+                Height = 16
+                PNG = {
+                  89504E470D0A1A0A0000000D49484452000000100000001008060000001FF3FF
+                  61000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                  01D349444154384FAD534D4F5351109D79AF7C066358087B822C30266C201AB7
+                  ACA02C886D1A941F501618A01875E7CE0DA50B16FC0244A16002850D3F005234
+                  A9E16341C21F00968460D3F7C639F3EEABD415899E643A674E7B67E6DE99D2BF
+                  829DAFE3796EBC2BA0A6374A4789E571A4D299DA8E2FB5A5FDFCB78B488AE039
+                  6F187A9B49079C38D1B40F98BCECADB474C358FC29127A88EF8672A994FBB9A1
+                  DE010E4B288B1C52B25C58FBE9E4060CCEA707F4C01689CC95F3C522344B606D
+                  A372C0C3770F3F9B4D3D853F28148F4C50B8247BD526E9AF7C2A5EDA15A23BF3
+                  E7BF2B071EBF84B9D070B8B05E11E22FCD556F1AB125109664E0852BE0F70107
+                  B4A20F9C044FE043847B3AAEE9141C6D6BD511706DF505FC602EFD0EDE0F6517
+                  D749246E4FAA616B2FB48629C460E64E98D236D89DB80E661178EB40B39C5F77
+                  48BFD2B27BB0F7D0B5F247F8C38535F3316AB5D627ECCB3978D4014BC90F78D2
+                  F83D203EBDD687DC06B704D830BDF00446843886DE7903E642838D51281386FE
+                  12E23F8BA41B26E415B49B318CCAC90D881729146FE67BFEEB26B47A02C0D694
+                  791973C6A8DA7EC931F49B76D185F25E5965E26C7C186848000C7C483DC29208
+                  89FE99B8CF449133E525B4FD6371F5CAB4FF03A2DF1EFEB3BAA74D9AEF000000
+                  0049454E44AE426082}
+                FileName = 'E:\Git Hub\sistema_pdv_layout\src\assets\botao-adicionar.png'
+              end
+              item
+                Scale = 3.000000000000000000
+              end
+              item
+                Scale = 4.000000000000000000
+              end>
+            Align = Client
+            Size.Width = 31.000000000000000000
+            Size.Height = 23.000000000000000000
+            Size.PlatformDefault = False
+          end
+          object SpeedButton2: TSpeedButton
+            Align = Contents
+            Size.Width = 31.000000000000000000
+            Size.Height = 23.000000000000000000
+            Size.PlatformDefault = False
+          end
+        end
+        object lblquantidade: TLabel
+          Align = Client
+          StyledSettings = [Family, Style, FontColor]
+          Size.Width = 35.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 18.000000000000000000
+          TextSettings.HorzAlign = Center
+          Text = '0'
+          TabOrder = 2
+        end
+      end
+    end
+  end
+end

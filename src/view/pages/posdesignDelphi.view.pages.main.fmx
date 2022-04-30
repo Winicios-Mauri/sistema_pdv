@@ -586,6 +586,15 @@ object PageMain: TPageMain
               TabOrder = 1
             end
           end
+          object FramedVertScrollBox1: TFramedVertScrollBox
+            Align = Client
+            Size.Width = 280.000000000000000000
+            Size.Height = 156.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 4
+            Viewport.Width = 276.000000000000000000
+            Viewport.Height = 152.000000000000000000
+          end
         end
         object ShadowEffect2: TShadowEffect
           Distance = 3.000000000000000000

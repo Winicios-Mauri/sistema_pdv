@@ -91,6 +91,7 @@ object ComponetItemButton: TComponetItemButton
         Size.Width = 101.000000000000000000
         Size.Height = 128.000000000000000000
         Size.PlatformDefault = False
+        OnClick = SpeedButton1Click
       end
     end
   end

@@ -1,0 +1,5 @@
+object ComponentItemLista: TComponentItemLista
+  Size.Width = 280.000000000000000000
+  Size.Height = 33.000000000000000000
+  Size.PlatformDefault = False
+end

@@ -70,6 +70,13 @@ object ComponetCategoryButton: TComponetCategoryButton
         Opacity = 0.600000023841857900
         ShadowColor = claBlack
       end
+      object SpeedButton1: TSpeedButton
+        Align = Contents
+        Size.Width = 100.000000000000000000
+        Size.Height = 60.000000000000000000
+        Size.PlatformDefault = False
+        OnClick = SpeedButton1Click
+      end
     end
   end
 end

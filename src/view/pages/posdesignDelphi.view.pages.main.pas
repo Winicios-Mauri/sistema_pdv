@@ -69,6 +69,7 @@ type
     VertScrollBox1: TVertScrollBox;
     FlowLayout1: TFlowLayout;
     FlowLayout2: TFlowLayout;
+    FramedVertScrollBox1: TFramedVertScrollBox;
     procedure SpeedButton1Click(Sender: TObject);
     procedure Edit1Click(Sender: TObject);
   private
@@ -112,7 +113,7 @@ begin
   for I := 1 to 8 do
   begin
     FlowLayout1.AddObject(TComponetItemButton.Create(Self)
-      .Recursos('bebida' + I.ToString, 'Bebida', 'R$ 3,35').Layout1);
+      .Recursos(I, FramedVertScrollBox1, 'bebida' + I.ToString, 'Bebida', '3,35').Layout1);
   end;
 
 end;
